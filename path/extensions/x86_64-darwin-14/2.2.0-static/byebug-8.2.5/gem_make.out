@@ -1,0 +1,20 @@
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/byebug-8.2.5/ext/byebug
+/Users/chutipongroobklom/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20160510-93226-1ymhq0a.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/byebug-8.2.5/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/byebug-8.2.5/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/byebug-8.2.5/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.bundle ./.gem.20160510-93226-8roj2v/byebug

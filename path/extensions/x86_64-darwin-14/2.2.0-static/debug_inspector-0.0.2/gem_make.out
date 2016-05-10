@@ -1,0 +1,16 @@
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/chutipongroobklom/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20160510-93226-8vjdtc.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+current directory: /Users/chutipongroobklom/Ruby/stripetutorial/path/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -m 0755 debug_inspector.bundle ./.gem.20160510-93226-1v3pkj7

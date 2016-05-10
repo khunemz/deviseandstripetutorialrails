@@ -1,0 +1,18 @@
+<%= form_tag subscribe_path(1), method: :put do %>
+    <article>
+      Access all of todos just
+      <label for="amount">
+        <strong>$500 </strong>
+      </label>
+      per month.
+    </article>
+    <br />
+    <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_dM2a4RjmA7LdXB4txSJHqQyq"
+    data-amount="50000"
+    data-name="Monthly subscription"
+    data-description="Widget"
+    data-locale="auto">
+    </script>
+<% end %>
